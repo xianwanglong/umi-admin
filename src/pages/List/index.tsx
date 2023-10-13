@@ -1,11 +1,11 @@
 import React from "react";
 
-const Table = () => {
+const List = () => {
   return (
     <div>
-      <div>table</div>
+      <div>list</div>
     </div>
   )
 }
 
-export default Table;
+export default List;

@@ -1,4 +1,7 @@
 import { defineConfig } from '@umijs/max';
+import { menus } from 'config/routes';
+
+console.log('h',menus)
 
 export default defineConfig({
   antd: {},
@@ -7,29 +10,9 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: '后台',
   },
-  routes: [
-    {
-      path: '/',
-      redirect: '/home',
-    },
-    {
-      name: '首页',
-      path: '/home',
-      component: './Home',
-    },
-    {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-      name: ' CRUD 示例',
-      path: '/table',
-      component: './Table',
-    },
-  ],
+  routes: menus,
   npmClient: 'yarn',
 });
 

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author": "longxianwang@pinbo <xianwanglong@lilith.com>",
+  "author": "longxianwang@pinbo",
   "scripts": {
     "dev": "max dev",
     "build": "max build",
@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
-    "@ant-design/pro-components": "^2.4.4",
     "@umijs/max": "^4.0.81",
     "antd": "^5.4.0"
   },
